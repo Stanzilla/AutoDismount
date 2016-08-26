@@ -1,0 +1,15 @@
+## Interface: 60100
+## Title: Auto Dismount
+## Author: Tonyleila
+## Notes: Auto dismounts if you cant do something while mounted.
+
+## X-Credits: DarkStarX, Dridzt
+## X-RelSite-WoWI: 22165
+## X-Curse-Packaged-Version: v1.39
+## X-Curse-Project-Name: Auto Dismount
+## X-Curse-Project-ID: auto-dismount
+## X-Curse-Repository-ID: wow/auto-dismount/mainline
+
+
+AutoDismount.lua
+
