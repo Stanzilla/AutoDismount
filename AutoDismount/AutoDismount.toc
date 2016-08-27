@@ -5,7 +5,6 @@
 
 ## X-Credits: DarkStarX, Dridzt
 ## X-RelSite-WoWI: 22165
-## X-Curse-Packaged-Version: v1.37b
 ## X-Curse-Project-Name: Auto Dismount
 ## X-Curse-Project-ID: auto-dismount
 ## X-Curse-Repository-ID: wow/auto-dismount/mainline
