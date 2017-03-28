@@ -1,4 +1,4 @@
-## Interface: 70100
+## Interface: 70200
 ## Title: Auto Dismount vStan
 ## Author: Tonyleila
 ## Notes: Auto dismounts if you cant do something while mounted.

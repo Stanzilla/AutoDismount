@@ -10,10 +10,10 @@ local MOUNTERRORS = {
 
 local f = CreateFrame("frame")
 f.OnUpdate = function(self, elapsed)
-  if suppress then 
-    suppress = nil 
-    f:SetScript("OnUpdate", nil) 
-    return 
+  if suppress then
+    suppress = nil
+    f:SetScript("OnUpdate", nil)
+    return
   end
   Dismount()
   f:SetScript("OnUpdate", nil)
@@ -28,9 +28,9 @@ f.OnEvent = function(self, event, ...)
   end
   local _, errorName = ...
   -- not an error message we care about or we are flying and don't have flight auto-dismount option checked, return immediately.
-  if not MOUNTERRORS[errorName] or IsFlying() and not GetCVarBool("autoDismountFlying") then 
-    return 
-  end 
+  if not MOUNTERRORS[errorName] or IsFlying() and not GetCVarBool("autoDismountFlying") then
+    return
+  end
   f:SetScript("OnUpdate", f.OnUpdate) -- dismount on next frame
 end
 
